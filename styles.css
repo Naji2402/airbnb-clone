@@ -107,15 +107,102 @@
         display: none;
     }
 }
+
 /* second header large css */
+
 .second-header-large-main{
     display: none;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 8px 48px;
 }
-
-
+.second-header-large-first-section{
+    display: flex;
+    justify-content: space-between;
+}
+.second-header-large{
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(3, min-content);
+    width: 500px;
+    margin-top: 8px;
+}
+.second-header-large-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.second-header-large-options video{
+    width: 68px;
+    height: 65px;
+    margin-bottom: 5px;
+}
+.new-popup-large{
+    padding: 3px 6px;
+    border-radius: 10px 10px 10px 2px;
+    font-size: 8px;
+    color: #FFFFFF;
+    background: linear-gradient(357.5deg, #3e567c 1.59%, #3a5475 21.23%, #2d3c5b 58.6%, #809dc0 97.4%);
+    box-shadow: 0 0.953955px 1.90791px rgba(60, 77, 107, 0.25), 0 3.81582px 5.72373px rgba(60, 77, 107, 0.25), inset 0 0 2px 0.5px #001c40, inset 0 -1px 3px #d7ebff;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.32px;
+    position: absolute;
+    top: 9px;
+    left: 55px;
+}
+.second-header-large-options span{
+    font-size: 14px;
+    color: #6A6A6A;
+    padding-bottom: 2px;
+}
+.second-header-large-first-section div:nth-child(1){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 126px;
+}
+.second-header-large-first-section div:nth-child(1) svg:nth-child(2){
+    display: none;
+}
+.second-header-large-hamburger{
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    align-items: center;
+}
+.second-header-large-hamburger p{
+    display: none;
+    font-size: 14px;
+    color: #222222;
+    margin-right: 12px;
+}
+.second-header-large-hamburger div{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+@media screen and (min-width:1128px){
+    .second-header-large-hamburger p{
+        display: block;
+    }
+}
+@media screen and (min-width:949px){
+    .second-header-large-first-section div:nth-child(1) svg:nth-child(1){
+        display: none;
+    }
+    .second-header-large-first-section div:nth-child(1) svg:nth-child(2){
+        display: block;
+    }
+}
 @media screen and (min-width:744px){
      .second-header-large-main{
-        display: block;
+        display: flex;
     }
 }
 /* second header large css end */
