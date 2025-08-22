@@ -1,3 +1,5 @@
+
+/* css for all content */
 @font-face {
     font-family: Airbnb;
     src: url(fonts/AirbnbCerealVF_W_Wght.2d9d32865ef1262644c455b3ead871e9.woff2);
@@ -12,11 +14,8 @@
     box-sizing: border-box;
     font-family: var(--main-font);
 }
-
-
+/* css for all content end */
 /* search header css */
-
-
 .header{
     width: 100%;
     height: 68px;
@@ -43,40 +42,81 @@
     gap: 10px;
 }
 
-@media screen and (min-width:743px){
+@media screen and (min-width:744px){
     .header{
         display: none;
     }
 }
-
-
-
+/* search header css end */
 /* second header css */
-
 .second-header{
     display: flex;
     justify-content: space-between;
     gap: 10px;
     width: 100%;
     min-height: 68px;
-    padding: 16px 64px 0;
+    padding: 9px 54px 0;
 }
 .second-header-options{
     min-width: 68px;
-    height: 56px;
+    height: 65px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 8px;
-    /* border-bottom: 3px solid black; */
+    margin-bottom: 8px; 
+    position: relative;
 }
+.second-header-options:nth-child(1) span{
+    border-bottom: 3px solid black;
+    font-weight: 600;
+}
+
 .second-header-options video{
     width: 100%;
     height: 100%;
+    margin-bottom: 5px;
 }
 .second-header-options span{
     font-size: 12px;
     position: relative;
-    top: -7px;
+    top: -17px;
     color: #6A6A6A;
+    padding-bottom: 2px;
 }
+.new-popup{
+    padding: 3px 6px;
+    border-radius: 10px 10px 10px 2px;
+    font-size: 8px;
+    color: #FFFFFF;
+    background: linear-gradient(357.5deg, #3e567c 1.59%, #3a5475 21.23%, #2d3c5b 58.6%, #809dc0 97.4%);
+    box-shadow: 0 0.953955px 1.90791px rgba(60, 77, 107, 0.25), 0 3.81582px 5.72373px rgba(60, 77, 107, 0.25), inset 0 0 2px 0.5px #001c40, inset 0 -1px 3px #d7ebff;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0.32px;
+    position: absolute;
+    top: 10px;
+    left: 55px;
+}
+@media screen and (min-width:376px){
+    .second-header{
+    padding: 9px 64px 0;
+}
+}
+@media screen and (min-width:744px){
+    .second-header{
+        display: none;
+    }
+}
+/* second header large css */
+.second-header-large-main{
+    display: none;
+}
+
+
+@media screen and (min-width:744px){
+     .second-header-large-main{
+        display: block;
+    }
+}
+/* second header large css end */
+/* second header css end */
