@@ -1,5 +1,6 @@
 
-/* css for all content */
+/* common for all content */
+
 @font-face {
     font-family: Airbnb;
     src: url(fonts/AirbnbCerealVF_W_Wght.2d9d32865ef1262644c455b3ead871e9.woff2);
@@ -14,7 +15,9 @@
     box-sizing: border-box;
     font-family: var(--main-font);
 }
+
 /* css for all content end */
+
 /* search header css */
 
 .header{
@@ -48,7 +51,9 @@
         display: none;
     }
 }
+
 /* search header css end */
+
 /* second header css */
 
 .second-header{
@@ -296,7 +301,9 @@
 
 
 /* second header large css end */
+
 /* second header css end */
+
 /* homes in bangaluru css */
 
 
@@ -488,10 +495,13 @@
         grid-auto-columns: calc((100%  - (11px * 6)) / 7);
     }
 }
+
 /* homes bangaluru grid section css end */
+
 /* homes in bangaluru end */
 
 /* footer css */
+
 .footer{
     width: 100%;
     background-color: #F7F7F7;
@@ -547,6 +557,7 @@
 }
 
 /* footer content css */
+
 .footer-content-section{
     width: 100%;
     padding: 0 24px;
@@ -606,6 +617,7 @@
 }
 
 /* footer underline div css*/
+
 @media screen and (min-width:744px){
     .footer-underline{
         height: 1px;
@@ -614,10 +626,15 @@
         background-color: #DDDDDD;
 }
 }
+
 /* footer enderline div css end */
+
 /* footer content css end */
+
 /* footer css end */
+
 /* footer bottom css */
+
 .footer-bottom{
     width: 100%;
     background-color: #F7F7F7;
@@ -724,8 +741,11 @@
         padding: 24px 48px;
     }
 }
+
 /* footer bottom css end */
+
 /* fixed footerr css */
+
 .fixed-footer{
     height: 64px;
     position: sticky;
@@ -775,5 +795,6 @@
         display: none;
     }
 }
+
 /* fixed footer css end */
 
