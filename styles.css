@@ -325,6 +325,7 @@
     font-size: 18px;
     font-weight: 600;
     color: #222222;
+    letter-spacing:-0.20px;
 }
 .homes-bangaluru-heading div:nth-child(1) {
     margin: 28px 24px 12px;
