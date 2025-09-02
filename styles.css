@@ -139,7 +139,7 @@
     display: grid;
     justify-content: end;
     align-items: center;
-    gap: 20px;
+    gap: 18px;
     grid-template-columns: repeat(3, min-content);
     width: 500px;
     margin-top: 8px;
@@ -177,11 +177,26 @@
     padding-bottom: 2px;
     font-weight: 600;
 }
+
 .second-header-large-options:nth-child(1) {
     border-bottom: 3px solid black;
 }
 .second-header-large-options:nth-child(1) span{
     color: #222222;
+    position: relative;
+    bottom: 2px;
+}
+.second-header-large-options:nth-child(2) span{
+    position: relative;
+    right: 7px;
+    bottom: 2px;
+    font-weight: 400;
+}
+.second-header-large-options:nth-child(3) span{
+    position: relative;
+    right: 4px;
+    bottom: 2px;
+    font-weight: 400;
 }
 .second-header-large-first-section div:nth-child(1){
     display: flex;
@@ -812,4 +827,11 @@
 
 
 /* fixed footer css end */
+
+
+
+
+
+
+
 
