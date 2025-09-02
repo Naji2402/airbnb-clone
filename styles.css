@@ -107,7 +107,7 @@
 }
 @media screen and (min-width:376px){
     .second-header{
-    padding: 9px 64px 0;
+    padding: 9px 62px 0;
 }
 }
 @media screen and (min-width:744px){
@@ -237,7 +237,7 @@
 .second-header-large-second-section{
     display: flex;
     justify-content: center;
-    padding: 23px 0 32px 0;
+    padding: 12px 0 42px 0;
     width: 100%;
 }
 .second-header-large-input-container{
@@ -300,6 +300,14 @@
 }
 
 
+@media screen and (min-width:1439px){
+    .second-header-large-second-section{
+        justify-content: center;
+        padding: 22px 0 31px 0;
+        width: 100%;
+}
+}
+
 /* second header large css end */
 
 /* second header css end */
@@ -355,6 +363,7 @@
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (min-width:744px){
 .homes-bangaluru-heading div:nth-child(2){
     display: flex;
@@ -532,6 +541,7 @@
     height: 16px;
     width: 16px;
 }
+
 @media screen and (min-width:744px) {
     .footer-arrows{
         padding: 16px 15px 10px;
@@ -581,6 +591,7 @@
     font-size: 14px;
     font-weight: 400;
 }
+
 @media screen and (min-width:744px){
     .footer-content-section{
         display: grid;
@@ -698,6 +709,7 @@
     display: flex;
     gap: 24px;
 }
+
 @media screen and (min-width:744px){
     .footer-bottom{
         padding: 24px;
@@ -786,6 +798,7 @@
     flex-direction: column;
     gap: 4px;
 }
+
 @media screen and (min-width:424px){
     .fixed-footer-main{
         gap: 13px;
@@ -796,6 +809,7 @@
         display: none;
     }
 }
+
 
 /* fixed footer css end */
 
