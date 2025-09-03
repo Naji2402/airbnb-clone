@@ -133,18 +133,22 @@
 .second-header-large-first-section{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 82px;
 }
+
 .second-header-large{
     display: grid;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
-    gap: 18px;
+    gap: 35px;
     grid-template-columns: repeat(3, min-content);
     width: 500px;
+    height: 48px;
     margin-top: 8px;
-    padding-right: 10px;
+    padding-right: 25px;
 }
+
 .second-header-large-options{
     display: flex;
     justify-content: center;
@@ -152,10 +156,15 @@
     position: relative;
     height: 46px;
 }
+
+.second-header-large-options div:first-of-type{
+    transform: scale(1.33);
+    transform-origin: center bottom;
+}
 .second-header-large-options video{
-    width: 68px;
-    height: 65px;
-    margin-bottom: 5px;
+    height: 36px;
+    width: 36px;
+    transform: scale(1.5);
 }
 .new-popup-large{
     padding: 3px 6px;
@@ -168,8 +177,8 @@
     line-height: 10px;
     letter-spacing: 0.32px;
     position: absolute;
-    top: -7px;
-    left: 51px;
+    top: -10px;
+    left: 37px;
 }
 .second-header-large-options span{
     font-size: 14px;
@@ -177,31 +186,32 @@
     padding-bottom: 2px;
     font-weight: 600;
 }
-
-.second-header-large-options:nth-child(1) {
-    border-bottom: 3px solid black;
-}
 .second-header-large-options:nth-child(1) span{
     color: #222222;
     position: relative;
-    bottom: 2px;
+    bottom: 5px;
+    margin-left: 16px;
+}
+.second-header-large-options:nth-child(1) {
+    border-bottom: 3px solid black;
 }
 .second-header-large-options:nth-child(2) span{
     position: relative;
-    right: 7px;
-    bottom: 2px;
+    bottom: 7px;
     font-weight: 400;
+    margin-left: 8px;
 }
 .second-header-large-options:nth-child(3) span{
     position: relative;
-    right: 4px;
-    bottom: 2px;
+    bottom: 6px;
     font-weight: 400;
+    margin-left: 12px;
 }
 .second-header-large-first-section div:nth-child(1){
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding-left: 2px;
 }
 .second-header-large-first-section div:nth-child(1) svg:nth-child(2){
     display: none;
@@ -827,11 +837,3 @@
 
 
 /* fixed footer css end */
-
-
-
-
-
-
-
-
