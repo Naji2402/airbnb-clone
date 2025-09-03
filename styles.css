@@ -36,8 +36,6 @@
     border: 0.5px solid rgba(0, 0, 0, 0.08);
     font-size: 14px;
     font-weight:500;
-    letter-spacing: normal;
-    text-align: center;
     background: transparent;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.1);
     display: flex;
@@ -386,7 +384,7 @@
     letter-spacing:-0.20px;
 }
 .homes-bangaluru-heading div:nth-child(1) {
-    margin: 28px 24px 12px;
+    margin: 34px 24px 12px;
 }
 .homes-bangaluru-heading div:nth-child(2) {
     margin: 32px 24px 14px;
@@ -453,14 +451,14 @@
     gap: 11px;
     overflow-x: scroll;
     scrollbar-width: none;
-    padding: 4px 24px 8px;
+    padding: 4px 24px 0;
     
 }
 .homes-bangaluru-container{
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 2px;
   max-width: 333px;
   position: relative;
 }
@@ -469,6 +467,7 @@
     aspect-ratio: 20 / 19;
     object-fit: cover;
     border-radius: 20px;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.02),0px 8px 24px 0px rgba(0,0,0,0.10);
 }
 .homes-bangaluru-container div:nth-child(1) div:nth-child(2){
     position: absolute;
@@ -484,7 +483,8 @@
  left: 12px; 
  padding: 5.5px 9.5px;
  padding-left: 10px;
- background-color: rgba(255, 255, 255);
+ background-color: rgba(255, 255, 255, 0.8);
+ backdrop-filter: blur(32px);
  border: 1px solid rgba(255, 255, 255, 0.5);
  border-radius: 14px;
  color: #222222;
