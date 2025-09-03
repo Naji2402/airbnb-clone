@@ -480,7 +480,7 @@
 }
 
 .homes-bangaluru-container div:nth-child(1) div:nth-child(2) div:nth-child(1){
- left: 12px; 
+ width: 98px;
  padding: 5.5px 9.5px;
  padding-left: 10px;
  background-color: rgba(255, 255, 255, 0.8);
@@ -497,6 +497,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 4px;
+    gap: 2px;
 }
 .homes-bangaluru-container .homes-text-section div:nth-child(2){
     display: flex;
@@ -504,12 +505,15 @@
     gap: 5px;
 }
 .homes-text-section span:nth-child(1){
+    width: 96%;
     font-size: 13px;
     line-height: 16px;
     color: #222222;
-    font-weight: 600;
+    font-weight: 500;
 }
+
 .homes-text-section div:nth-child(2) span{
+    width: auto;
     font-size: 12px;
     color: #6A6A6A;
     font-weight: 400;
@@ -517,6 +521,12 @@
 .homes-bangaluru-container div:nth-of-type(2) .starsvg{
     width: 8px;
     height: 8px;
+}
+
+@media screen and (min-width:387px){
+    .homes-bangaluru-container div:nth-child(1) div:nth-child(2) div:nth-child(1){
+        width: auto;
+    }
 }
 
 /* not guest favorite css */
