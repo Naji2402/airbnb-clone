@@ -103,6 +103,7 @@
     top: 10px;
     left: 55px;
 }
+
 @media screen and (min-width:376px){
     .second-header{
     padding: 9px 62px 0;
@@ -858,7 +859,6 @@
     flex-direction: column;
     gap: 4px;
 }
-
 @media screen and (min-width:424px){
     .fixed-footer-main{
         gap: 13px;
@@ -872,3 +872,4 @@
 
 
 /* fixed footer css end */
+
